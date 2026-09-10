@@ -1,4 +1,4 @@
-**[Live Wasm Demo](https://ivan-enzhaev.github.io/examples/webgpu/gui/text/integrate-imgui-cglm-sdl3-webgpu-cpp)**
+**[Live Wasm Demo](https://ivan-enzhaev.github.io/examples/webgpu/gui/imgui/integrate-imgui-cglm-sdl3-webgpu-cpp)**
 
 ### Android Screenshot
 
