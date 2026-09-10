@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
@@ -7,14 +8,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <style>
-        html, body {
+        html,
+        body {
             width: 100%;
             height: 100%;
             margin: 0;
             padding: 0;
             overflow: hidden;
             background-color: #000000;
-            touch-action: none; /* Disables web pull-to-refresh and pinch-zoom */
+            touch-action: none;
         }
 
         #canvas {
@@ -22,6 +24,30 @@
             height: 100vh;
             display: block;
             outline: none;
+        }
+
+        /* Position the link floating over the canvas */
+        .repo-link {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            z-index: 10;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .repo-link a {
+            color: #ffffff;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .repo-link a:hover {
+            background: rgba(0, 0, 0, 0.8);
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -63,4 +89,5 @@
         console.log("app.js script tag completed");
     </script>
 </body>
+
 </html>
