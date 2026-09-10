@@ -17,7 +17,7 @@ scrcpy --max-fps=60 --video-bit-rate=16M --video-codec=h265
 Scan the QR code below to run the app directly on your mobile device:
 
 <p align="center">
-    <img width="192" height="192" alt="image" src="https://github.com/user-attachments/assets/3de6496b-4786-4f6d-9450-e473ff455e0b" />
+    <img width="192" height="192" alt="image" src="https://github.com/user-attachments/assets/8637520e-0340-4673-9d47-6b5ccbb50ff3" />
 </p>
 
 ### Guide
